@@ -12,6 +12,11 @@ class MyApp extends StatelessWidget {
           title: const Center(child: Text('Simple Flutter App')),
         ),
         body: Center(
+          child: Column(
+            children: [
+              Image.asset('images/spaceman.jpg'),
+            ],
+          ),
         ),
       ),
     );
